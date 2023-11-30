@@ -35,6 +35,9 @@ const Navbar = () => {
       <NavLink to="/list" style={style}>
         LIST
       </NavLink>
+      <NavLink to="/country_state_district" style={style}>
+        Country : State : District
+      </NavLink>
     </NavbarContainer>
   );
 }

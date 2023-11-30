@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import StopWatch from "./containers/StopWatch";
 import TicTacToe from "./containers/TicTacToe";
 import List from "./containers/List";
+import CountryStateDistrict from "./containers/CountryStateDistrict";
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/stopwatch" element={<StopWatch />} />
         <Route path="/tictactoe" element={<TicTacToe />} />
         <Route path="/list" element={<List />} />
+        <Route path="/country_state_district" element={<CountryStateDistrict />} />
       </Routes>
     </>
   );
